@@ -1,1 +1,7 @@
 Most of these projects involve Math Algorithms, or utility Applications. These have been constructed using several coding techniques.
+
+Graphing Calculator (Graphing/GraphCalc.py and Graphing/TheCompSciNerdMathModule.py):
+- Unlike most other calculators, my Graphing Calculator actually allows for the calculation of limits, in addition to derivatives and integrals.
+- It can also calculate approximations of the sine and cosine functions to a certain degree, using the number of taylor series terms.
+- In order to graph a sine, cosine, or ln function, you must type 'calc', then 'storemode True', and then use 'tylrsin' or 'tylrcos' and store it in a variable before exiting. Then you must type in 'graph', and when prompted 'Graphed polynomial:', you must type in the variable name.
+- Composite functions are also possible, though you will need to do some extra work. Keep in mind, in the command line prompt, python commands are still possible. For example, if you want to graph x*sin(x) as a function, you will need to obtain the taylor series polynomial of sin(x), store it in a variable, and append 0 to the list (since multiplication by x means all the terms are being raised by one degree). Then you can use that variable when specifying the polynomial you'll be graphing. You can also next two synDiv functions into each other.
